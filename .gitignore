@@ -1,0 +1,79 @@
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+.vscode/
+.vs/
+
+# Build output
+bin/
+obj/
+*.exe
+*.pdb
+*.dll
+*.cache
+*.log
+
+# NuGet Packages
+*.nupkg
+packages/
+!packages/repositories.config
+!packages/nuget.config
+
+# ASP.NET specific
+App_Data/
+*.cshtml.cache
+*.min.*
+wwwroot/lib/
+
+# Roslyn compiler
+*.ide/
+
+# Test results
+TestResults/
+*.trx
+*.xml
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+
+# Azure and other deployment-related
+*.pubxml
+*.publishproj
+ServiceConfiguration.*.cscfg
+*.azurePubxml
+
+# Temporary files
+~$*
+*.dbmdl
+*.jfm
+*.bak
+*.tmp
+*.swp
+
+# Sensitive information
+appsettings.json
+appsettings.*.json
+web.config
+*.csproj.user
+*.config
+*.config.user
+
+# Miscellaneous
+node_modules/
+bower_components/
+*.lock.json
+*.ghost
+*.DotSettings
+*.ncrunch*
+_ReSharper*/
+*.dotCover
+*.scc
+
+# Rider IDE
+.idea/
+*.iml

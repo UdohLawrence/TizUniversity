@@ -28,7 +28,7 @@ namespace TizUniversity.Pages.Students
                 return NotFound();
             }
 
-            var student = await _context.Student.FirstOrDefaultAsync(m => m.Id == id);
+            var student = await _context.Students.FirstOrDefaultAsync(m => m.Id == id);
 
             if (student is not null)
             {
